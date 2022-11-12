@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header Css Start */
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-nav a.nav-link {
+  font-size: 17px;
+  color: #222;
+  font-weight: 500;
+  margin-left: 10px;
+}
+@media (max-width: 991px) {
+  .navbar-nav a.nav-link {
+    margin-left: 0px;
+  }
+}
+.navbar-nav a.nav-link:hover {
+  color: #006aa0;
+}
+.navbar-nav a.active {
+  color: #006aa0 !important;
+}
+
+/* Slider Area Css */
+
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: inherit;
+}
+.carousel-caption h5 {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+@media (max-width: 991px) {
+  .carousel-caption h5 {
+    font-size: 25px;
+  }
+}
