@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - BD Builders</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Area -->
+    <header class="header-area bg-light py-2">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">BD Builders</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#headerMenu"
+              aria-controls="headerMenu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="headerMenu">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Main Area -->
+    <main class="main-area">
+      <div class="slider-area">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/hero-one.jpg"
+                class="d-block w-100"
+                alt="hero image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/hero-two.jpg"
+                class="d-block w-100"
+                alt="hero image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/hero-three.jpg"
+                class="d-block w-100"
+                alt="hero image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/hero-four.jpg"
+                class="d-block w-100"
+                alt="hero image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fourth slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="about-area py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-image">
+                <img src="images/about.jpg" class="w-100" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center">
+              <div class="about-text ps-lg-4 pt-4 pt-lg-0">
+                <h3>Learn More About Us</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  quasi, natus id, atque eum perspiciatis eveniet accusantium ex
+                  veritatis rem corporis sequi accusamus dignissimos earum ad
+                  mollitia distinctio cum tempora.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
+                  debitis incidunt dolore mollitia, corporis quo quam doloremque
+                  dignissimos similique sed error illum! Debitis, minima
+                  delectus.
+                </p>
+                <button type="button" class="btn btn-primary">
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services-area bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="section-heading text-center mb-5">
+                <h3>Our Services</h3>
+                <p>Learn more about our awesome services</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <div class="card">
+                <img
+                  src="images/hero-two.jpg"
+                  class="card-img-top"
+                  alt="services-img"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Service Two</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <div class="card">
+                <img
+                  src="images/hero-one.jpg"
+                  class="card-img-top"
+                  alt="services-img"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Service One</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mb-lg-0">
+              <div class="card">
+                <img
+                  src="images/hero-three.jpg"
+                  class="card-img-top"
+                  alt="services-img"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Service Three</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card">
+                <img
+                  src="images/hero-four.jpg"
+                  class="card-img-top"
+                  alt="services-img"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Service Four</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary btn-sm">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="details-area py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="section-heading text-center mb-5">
+                <h3>More Details</h3>
+                <p>Learn more details about our company</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <div class="details-accordian">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Company Details
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Sequi quibusdam necessitatibus repellat, nihil
+                        ipsa totam neque a ex? Ab, sit exercitationem? Soluta
+                        tenetur delectus dolor culpa pariatur sed consectetur
+                        esse, facilis quod quidem sunt officia accusantium
+                        cumque impedit dolorum ut beatae temporibus aut ad
+                        voluptas odio rem. Debitis, officia soluta!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Services Details
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit, a in eius dolorum, possimus rem iure
+                        error mollitia tempora officiis, at eum modi quia
+                        corporis sit. Enim odio, magni maxime possimus
+                        accusantium ipsa atque expedita iure, sunt ut aliquid
+                        quos? Repellendus accusamus blanditiis odit libero
+                        facilis molestias! Facilis, praesentium perspiciatis!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Payment Policy
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Iste explicabo earum amet dolor blanditiis animi,
+                        possimus quae delectus consectetur et fugit, voluptatem
+                        dolores voluptatum? Commodi atque sequi labore
+                        dignissimos cumque exercitationem ducimus, repellat
+                        quidem ipsa unde adipisci aut officia eaque alias
+                        fugiat, veniam quas minus! Perferendis voluptatum enim
+                        eum unde.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-area bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="section-heading text-center mb-5">
+                <h3>Conntact Us</h3>
+                <p>Please fill the form to contact with us</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <form action="">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="firstName" class="form-label"
+                        >First Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="firstName"
+                        placeholder="John"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="lastName" class="form-label">Last Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="lastName"
+                        placeholder="Doe"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="emailAddress" class="form-label"
+                        >Email Address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="emailAddress"
+                        placeholder="example@yahoo.com"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="mb-3">
+                      <label for="telNumber" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="telNumber"
+                        placeholder="+88 000 000 000"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="mb-3">
+                      <label for="textMessage" class="form-label"
+                        >Text Message</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="textMessage"
+                        rows="3"
+                        placeholder="Write Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <input
+                      class="form-control bg-primary text-white"
+                      type="submit"
+                      value="Send Message"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partner-area py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="section-heading text-center mb-5">
+                <h3>Our Partners</h3>
+                <p>Learn more about our valuable partners</p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-lg-5 row-cols-2 justify-content-center">
+            <div class="col">
+              <div class="partner-image p-4">
+                <img src="images/p-one.jpg" alt="partner-image" class="w-100" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="partner-image p-4">
+                <img src="images/p-two.jpg" alt="partner-image" class="w-100" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="partner-image p-4">
+                <img
+                  src="images/p-three.jpg"
+                  alt="partner-image"
+                  class="w-100"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="partner-image p-4">
+                <img
+                  src="images/p-four.jpg"
+                  alt="partner-image"
+                  class="w-100"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="partner-image">
+                <img
+                  src="images/p-five.jpg"
+                  alt="partner-image"
+                  class="w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer Area -->
+    <footer class="footer-area bg-light py-4">
+      <div class="container">
+        <div class="footer-text text-center">
+          <p class="m-0">&copy; BD Builders 2022, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
